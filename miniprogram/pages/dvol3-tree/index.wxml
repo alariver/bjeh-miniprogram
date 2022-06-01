@@ -1,0 +1,20 @@
+<!--dvol1.wxml-->
+<!-- <i-tab-bar current="{{ current }}" color="#f759ab" bindchange="handleChange">
+  <i-tab-bar-item key="dvol1" icon="homepage" current-icon="homepage_fill" title="疾病卷1">
+
+  </i-tab-bar-item>
+  <i-tab-bar-item key="dvol3" icon="group" current-icon="group_fill" title="疾病卷3">
+  </i-tab-bar-item>
+  <i-tab-bar-item key="ovol1" icon="remind" current-icon="remind_fill" title="手术核对">
+  </i-tab-bar-item>
+  <i-tab-bar-item key="ovol3" icon="mine" current-icon="mine_fill" title="手术索引">
+  </i-tab-bar-item>
+  <i-tab-bar-item key="path" icon="mine" current-icon="mine_fill" title="路径反查">
+  </i-tab-bar-item>
+</i-tab-bar> -->
+<!-- <block wx:if="{{ current == 'dvol1' }}"> -->
+
+  <view class="container">
+    <ec-canvas id="mychart-dom-pie" canvas-id="mychart-pie" ec="{{ ec }}"></ec-canvas>
+  </view>
+<!-- </block> -->

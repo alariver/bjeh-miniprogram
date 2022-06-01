@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "电力医院报修系统登录",
+  "usingComponents": {
+    "i-button": "../../dist/button/index",
+    "i-panel": "../../dist/panel/index",
+    "i-avatar": "../../dist/avatar/index",
+    "i-row": "../../dist/row/index",
+    "i-col": "../../dist/col/index",
+    "i-toast": "../../dist/toast/index",
+    "i-modal": "../../dist/modal/index",
+    "i-message": "../../dist/message/index"
+  }
+}

@@ -1,0 +1,7 @@
+<!--index.wxml-->
+
+<view class="panel">
+  <view class="chart-without-img" wx:for="{{pagesCanbeDisplay}}" wx:for-item="chart" wx:key="id">
+    <button bindtap="open" data-chart="{{chart}}">{{chart.name}}</button>
+  </view>
+</view>

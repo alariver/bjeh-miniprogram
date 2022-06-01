@@ -1,0 +1,28 @@
+<!-- <view class="i-index-demo">
+    <view>查看 {{icdKey}} 路径 ..</view>
+    <i-index height="90%" bind:change="onChange">
+        <i-index-item 
+            wx:for="{{ cities }}" 
+            wx:for-index="index" 
+            wx:key="{{index}}" 
+            wx:for-item="item" name="{{item.key}}">
+            <view 
+                class="i-index-demo-item" 
+                show="{{ level0 ? it.name.contains(level0) : false }}"
+                wx:for="{{item.list}}" 
+                wx:for-index="in" 
+                wx:key="{{in}}" 
+                bindtap="onselect"
+                data-city="{{it}}"
+                wx:for-item="it">
+                {{it.name}}
+            </view>
+        </i-index-item>
+        
+    </i-index>
+</view> -->
+<i-panel class="cell-panel-demo">
+    <i-cell wx:for="{{paths}}" wx:for-index="index" wx:key="{{index}}"
+    wx:for-item="item" name="{{item.pathHashCode}}"
+    bindtap="onselect" data-path="{{item}}" title="{{item.indexStr}}"></i-cell>
+</i-panel>
