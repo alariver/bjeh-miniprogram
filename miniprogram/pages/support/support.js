@@ -30,7 +30,7 @@ Page({
     if (!alreadyLogin()) {
       console.log('redirect to login page.')
       wx.redirectTo({
-        url: '../login/login?next=../dailyReport/dailyReport',
+        url: '../login/login?next=../support/support',
       })
     } else {
       console.log('already login ', app.globalData.token)

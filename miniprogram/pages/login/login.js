@@ -127,8 +127,12 @@ Page({
               app.globalData.hasUserInfo = true
               app.globalData.token = res.data.token
               // $Toast.hide();
+              var to = '../support/support'
+              if (this.data.from) {
+                to = this.data.from
+              }
               wx.redirectTo({
-                url: '../index/index?id=1'
+                url: to
               })
             } else {
               wx.showToast({
@@ -243,7 +247,7 @@ Page({
                 app.globalData.hasUserInfo = true
                 app.globalData.token = res.data.token
                 // $Toast.hide();
-                var to = '../icd-index/index'
+                var to = '../support/support'
                 if (this.data.from) {
                   to = this.data.from
                 }
