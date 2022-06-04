@@ -23,8 +23,6 @@
     <view class="loginBtnView">
       <button class="loginBtn" type="primary" size="{{primarySize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="login">登录</button>
     </view>
-    <view class="loginBtnView">
-      <van-button bindgetphonenumber="mobileLogin" style="background: #ff6700;" class="btnLoginStyle" open-type="getPhoneNumber" type="warning" shape="circle" size="large">手机快捷登录</van-button>
-    </view>
+   
   </view>
 </view>

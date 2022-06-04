@@ -2,8 +2,8 @@
 <view class="function-container">
   <button class="function-item" bindtap="onJump" data-target="ICD">ICD 工具</button>
   <button class="function-item" bindtap="onJump" data-target="ASK-SUPPORT">报修广场</button>
-  <button class="function-item" bindtap="onJump('ICD')">ICD 工具</button>
-  <button class="function-item" bindtap="onJump('ICD')">ICD 工具</button>
-  <button class="function-item" bindtap="onJump('ICD')">ICD 工具</button>
-  <button class="function-item" bindtap="onJump('ICD')">ICD 工具</button>
+  <button class="function-item" bindtap="onJump('ICD')">工具 1</button>
+  <button class="function-item" bindtap="onJump('ICD')">工具 2</button>
+  <button class="function-item" bindtap="onJump('ICD')">工具 3</button>
+  <button class="function-item" bindtap="onJump('ICD')">工具 4</button>
 </view>
