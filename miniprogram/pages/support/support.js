@@ -36,6 +36,22 @@ Page({
       console.log('already login ', app.globalData.token)
     }
     
+    wx.request({
+      url: 'https://www.skyatlas.net/app/api2/engineer.online/',
+      method: 'GET',
+      header: {
+        // 没有效果
+        token: app.globalData.token
+      },
+      data: {
+        // 有效的是这里
+        token: app.globalData.token
+      },
+      success: res => {
+        console.log('------- engineer.online --------',res.statusCode)
+        console.dir(res) 
+      }
+    })
   },
 
   /**

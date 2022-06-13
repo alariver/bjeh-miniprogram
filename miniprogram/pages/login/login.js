@@ -256,9 +256,10 @@ Page({
                 })
               } else {
                 wx.showToast({
-                  title: res.data.msg || '服务器端错误.',
+                  title: res.data.msg , 
                   icon: 'error',
-                  duration: 2000
+                  duration: 2000 
+                  
                 })
               }
             }
